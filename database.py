@@ -29,7 +29,7 @@ datos = getData()
 st.subheader("Emisiones de carbono por año")
 st.dataframe(pd.DataFrame(datos))
 
-dfGlobalCO2Emissions = pd.read_csv("venv/datos/GlobalCO2Emissions.csv")
+dfGlobalCO2Emissions = pd.read_csv("datos/GlobalCO2Emissions.csv")
 st.dataframe(dfGlobalCO2Emissions)
 
 st.subheader("Registrar un nuevo año")
